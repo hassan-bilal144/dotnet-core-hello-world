@@ -24,6 +24,7 @@ pipeline {
     stage("run") {
     
     
+      
       steps {
         dotnet run
       }
