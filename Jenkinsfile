@@ -1,6 +1,6 @@
 pipeline {
   
-  agent any
+  agent { label "CentOS8 (jenkins container host)" }
   
   stages {
     
