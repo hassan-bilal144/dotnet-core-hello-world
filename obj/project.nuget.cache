@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KRb9OLu3uC4lCvN1cuk1ecQR3wzW7VcKfotBXEZKJ7WtWoGaBoNMvqioxW/sWh5q9jjp0szwkjSIOTI3vSxi9g==",
+  "success": true,
+  "projectFilePath": "/home/centos/HelloWorldApp/HelloWorldApp.csproj",
+  "expectedPackageFiles": [
+    "/home/centos/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/centos/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
