@@ -7,7 +7,7 @@ pipeline {
     stage("restore") {
       
       steps {
-        sh "dotnet restore"
+        ootnet restore
       }
     
     }
@@ -16,7 +16,7 @@ pipeline {
     
     
       steps {
-        sh "dotnet build"
+        dotnet build
       }
     
     }
@@ -25,7 +25,7 @@ pipeline {
     
     
       steps {
-        sh "dotnet run"
+        dotnet run
       }
       
     }
