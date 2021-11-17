@@ -18,12 +18,7 @@ pipeline {
     stage ("Publish image to dockerhub") {
     
       steps {
-      
-        withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
-        
-          sh  "docker push hassan144/hello-world-dotnet-core-image:latest" 
-        
-        }
+          sh  "docker push hassan144/hello-world-dotnet-core-image:latest"
       
       }
     
