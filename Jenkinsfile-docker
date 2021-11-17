@@ -1,0 +1,46 @@
+pipeline {
+  
+  agent { label "CentOS8 (jenkins container host)" }
+  
+  stages {
+  
+    stage("Docker Build") {
+    
+      steps {
+        
+        sh "docker build -t hello-world-dotnet-core-image -f Dockerfile ."
+        
+      
+      }
+    
+    }
+    
+    stage ("Publish image to dockerhub") {
+    
+      steps {
+      
+        withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
+        
+          sh  "docker push hassan144/hello-world-dotnet-core-image:latest" 
+        
+        }
+      
+      }
+    
+    }
+    
+    stage ("Run docker container on the agent") {
+    
+      steps {
+      
+        sh "docker run hassan144/hello-world-dotnet-core-image:latest"
+
+      }
+    
+    }
+   
+    
+
+    
+  }
+}
