@@ -1,0 +1,13 @@
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp.deps.json
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp.runtimeconfig.json
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp.runtimeconfig.dev.json
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp.dll
+/home/centos/HelloWorldApp/bin/Release/netcoreapp3.1/HelloWorldApp.pdb
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.csprojAssemblyReference.cache
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.AssemblyInfoInputs.cache
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.AssemblyInfo.cs
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.csproj.CoreCompileInputs.cache
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.dll
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.pdb
+/home/centos/HelloWorldApp/obj/Release/netcoreapp3.1/HelloWorldApp.genruntimeconfig.cache

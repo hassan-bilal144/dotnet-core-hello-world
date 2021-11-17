@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/centos/.dotnet/store/|arch|/|tfm|",
+      "/home/centos/.nuget/packages"
+    ]
+  }
+}
