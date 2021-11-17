@@ -3,6 +3,19 @@ pipeline {
   agent { label "CentOS8 (jenkins container host)" }
   
   stages {
+
+
+    stage("restore, build and publish the app") {
+   
+      steps {
+      
+        sh "dotnet restore"	
+        sh "dotnet build"
+        sh "dotnet publish"
+      }
+
+    }
+
   
     stage("Docker Build") {
     
